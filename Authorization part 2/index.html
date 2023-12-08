@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorization</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="authorization">
+        <img class="authorization__frame" src="img/Frame.png" alt="Frame">
+        <div class="authorization__wrapper">
+            <img class="authorization__wrapper-img" src="img/logo.png" alt="logo"></img>
+            <span class="authorization__wrapper-title">Авторизация</span>
+            <form class="authorization__wrapper-form">
+                <div class="authorization__wrapper-login">
+                    <input class="" type="text" placeholder="Email или телефон" name="login" required>
+                    <img class="authorization__wrapper-icon" src="icons/person.png" alt="person">
+                </div>
+                <div class="authorization__wrapper-password">
+                    <input class="" type="password" class="authorization__wrapper-password" placeholder="пароль" name="password" required>
+                    <img class="authorization__wrapper-icon" src="icons/key.png" alt="key">
+                </div>
+                <div class="authorization__wrapper-text"></div>
+                <button type="submit" class="authorization__wrapper-button">Войти</button>
+            </form>
+            <span class="authorization__wrapper-text-success"></span>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
